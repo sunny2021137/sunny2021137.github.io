@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>刷題記錄</title>
+    <url>/2021/06/30/%E5%88%B7%E9%A1%8C%E8%A8%98%E9%8C%84-1/</url>
+    <content><![CDATA[<figure class="highlight php"><table><tr><td class="code"><pre><span class="line"><span class="keyword">echo</span> <span class="string">&quot;hi&quot;</span></span><br></pre></td></tr></table></figure>
+]]></content>
+      <categories>
+        <category>cpe</category>
+        <category>uva</category>
+      </categories>
+      <tags>
+        <tag>c++</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>第一篇 - 寫blog用到的語法紀錄</title>
+    <url>/2021/06/29/%E7%AC%AC%E4%B8%80%E7%AF%87%20-%20%E5%AF%ABblog%E7%94%A8%E5%88%B0%E7%9A%84%E8%AA%9E%E6%B3%95%E7%B4%80%E9%8C%84/</url>
+    <content><![CDATA[<p>避免自己忘記語法，第一篇blog記錄寫blog常用到的語法。<br>剛學希望不要忘得太快啦！</p>
+<span id="more"></span>
+<hr>
+<h1 id="hexo"><a href="#hexo" class="headerlink" title="hexo"></a>hexo</h1><p>在blog資料夾下執行：</p>
+<h2 id="1-創建資料夾"><a href="#1-創建資料夾" class="headerlink" title="1. 創建資料夾"></a>1. 創建資料夾</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo n page folder_name</span><br></pre></td></tr></table></figure>
+<h2 id="2-新建文章"><a href="#2-新建文章" class="headerlink" title="2. 新建文章"></a>2. 新建文章</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo n &quot;title&quot;  //或 hexo new &quot;title&quot;</span><br></pre></td></tr></table></figure>
+<h2 id="3-部署至github"><a href="#3-部署至github" class="headerlink" title="3. 部署至github"></a>3. 部署至github</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo clean  //清空</span><br><span class="line">hexo g      //generate</span><br><span class="line">hexo d  //deploy(部署)</span><br></pre></td></tr></table></figure>
+<h2 id="4-預覽"><a href="#4-預覽" class="headerlink" title="4. 預覽"></a>4. 預覽</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo s</span><br></pre></td></tr></table></figure>
+<h2 id="5-head部分"><a href="#5-head部分" class="headerlink" title="5. head部分"></a>5. head部分</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">---</span><br><span class="line">title: 第一篇 - 寫blog用到的語法紀錄</span><br><span class="line">date: 2021-06-29 17:46:55</span><br><span class="line">tags: </span><br><span class="line">    - hexo</span><br><span class="line">    - Markdown</span><br><span class="line">categories: blog筆記</span><br><span class="line">---</span><br></pre></td></tr></table></figure>
+<hr>
+<h1 id="Markdown"><a href="#Markdown" class="headerlink" title="Markdown"></a>Markdown</h1><h2 id="1-標題-1-6級"><a href="#1-標題-1-6級" class="headerlink" title="1. 標題(1-6級)"></a>1. 標題(1-6級)</h2><figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line"><span class="section"># 1級標題</span></span><br><span class="line"><span class="section">## 2級標題</span></span><br><span class="line"><span class="section">### 3級標題</span></span><br><span class="line">...</span><br><span class="line"><span class="section">###### 6級標題</span></span><br></pre></td></tr></table></figure>
+<h2 id="2-段落換行"><a href="#2-段落換行" class="headerlink" title="2. 段落換行"></a>2. 段落換行</h2><p><kbd>2個以上空格</kbd>加<kbd>enter</kbd> 或 空一行</p>
+<h2 id="3-粗體、斜體-、"><a href="#3-粗體、斜體-、" class="headerlink" title="3. 粗體、斜體(*、_)"></a>3. 粗體、斜體(<kbd>*</kbd>、<kbd>_</kbd>)</h2><figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line"><span class="strong">**粗體**</span></span><br><span class="line"><span class="emphasis">_斜體_</span></span><br><span class="line"><span class="strong">**<span class="emphasis">*粗斜體<span class="strong">**<span class="emphasis">*</span></span></span></span></span><br></pre></td></tr></table></figure>
+<h2 id="4-分隔線-、-、"><a href="#4-分隔線-、-、" class="headerlink" title="4. 分隔線( * 、 - 、 _ )"></a>4. 分隔線( <kbd>*</kbd> 、 <kbd>-</kbd> 、 <kbd>_</kbd> )</h2><figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line"><span class="strong">**<span class="emphasis">*</span></span></span><br></pre></td></tr></table></figure>
+<h2 id="5-列表"><a href="#5-列表" class="headerlink" title="5. 列表"></a>5. 列表</h2><ul>
+<li>無序( <kbd>*</kbd>、 <kbd>+</kbd> 、 <kbd>-</kbd> )  <figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line"><span class="bullet">-</span> list1</span><br><span class="line"><span class="bullet">-</span> list2</span><br></pre></td></tr></table></figure></li>
+<li>有序  <figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line"><span class="bullet">1.</span> list1</span><br><span class="line"><span class="bullet">2.</span> list2</span><br></pre></td></tr></table></figure></li>
+<li>嵌套(子列表前加4空格) <figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line"><span class="bullet">1.</span> list1</span><br><span class="line"><span class="bullet">    -</span> item1</span><br><span class="line"><span class="bullet">    -</span> item2</span><br><span class="line"><span class="bullet">2.</span> list2</span><br><span class="line"><span class="bullet">    -</span> item3</span><br><span class="line"><span class="bullet">    -</span> item4</span><br></pre></td></tr></table></figure></li>
+</ul>
+<h2 id="6-區塊"><a href="#6-區塊" class="headerlink" title="6. 區塊"></a>6. 區塊</h2><ul>
+<li>基本<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line"><span class="quote">&gt; 段落開頭</span></span><br></pre></td></tr></table></figure></li>
+<li>嵌套<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line"><span class="quote">&gt; 1</span></span><br><span class="line">&gt;&gt; 2</span><br><span class="line">&gt;&gt;&gt; 3</span><br></pre></td></tr></table></figure></li>
+</ul>
+<h2 id="7-代碼區"><a href="#7-代碼區" class="headerlink" title="7. 代碼區"></a>7. 代碼區</h2><p>用、、、前後包裹</p>
+<h2 id="8-link"><a href="#8-link" class="headerlink" title="8. link"></a>8. link</h2><ul>
+<li>文字顯示連結<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">[<span class="string">連結顯示文字</span>](<span class="link">連結地址</span>)</span><br></pre></td></tr></table></figure></li>
+<li>直接顯示地址連結<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">&lt;連結地址&gt;</span><br></pre></td></tr></table></figure></li>
+</ul>
+<h2 id="9-圖片"><a href="#9-圖片" class="headerlink" title="9. 圖片"></a>9. 圖片</h2><p>使用img標籤可設寬高！</p>
+<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line"><span class="xml"><span class="tag">&lt;<span class="name">img</span> <span class="attr">src</span>=<span class="string">&quot;&quot;</span> <span class="attr">width</span>=<span class="string">&quot;&quot;</span>&gt;</span></span></span><br></pre></td></tr></table></figure>
+<h2 id="10-表格"><a href="#10-表格" class="headerlink" title="10. 表格"></a>10. 表格</h2><ul>
+<li>基本<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">|  表頭   | 表頭  |</span><br><span class="line">|  ----  | ----  |</span><br><span class="line">| 單元格  | 單元格 |</span><br><span class="line">| 單元格  | 單元格 |</span><br></pre></td></tr></table></figure></li>
+<li>對齊方式<ul>
+<li><kbd>-:</kbd>：右對齊</li>
+<li><kbd>:-</kbd>：左對齊</li>
+<li><kbd>:-:</kbd>： 居中對齊</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h1 id="Next"><a href="#Next" class="headerlink" title="Next"></a>Next</h1><p>Next主題官方文檔連結：<br><a href="https://theme-next.iissnan.com/">https://theme-next.iissnan.com/</a></p>
+]]></content>
+      <categories>
+        <category>blog筆記</category>
+      </categories>
+      <tags>
+        <tag>hexo</tag>
+        <tag>Markdown</tag>
+      </tags>
+  </entry>
+</search>
