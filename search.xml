@@ -1,30 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>刷題記錄</title>
-    <url>/2021/06/30/%E5%88%B7%E9%A1%8C%E8%A8%98%E9%8C%84-1/</url>
-    <content><![CDATA[<figure class="highlight php"><table><tr><td class="code"><pre><span class="line"><span class="keyword">echo</span> <span class="string">&quot;hi&quot;</span></span><br></pre></td></tr></table></figure>
-]]></content>
-      <categories>
-        <category>cpe</category>
-        <category>uva</category>
-      </categories>
-      <tags>
-        <tag>c++</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>第一篇 - 寫blog用到的語法紀錄</title>
     <url>/2021/06/29/%E7%AC%AC%E4%B8%80%E7%AF%87%20-%20%E5%AF%ABblog%E7%94%A8%E5%88%B0%E7%9A%84%E8%AA%9E%E6%B3%95%E7%B4%80%E9%8C%84/</url>
-    <content><![CDATA[<p>避免自己忘記語法，第一篇blog記錄寫blog常用到的語法。<br>剛學希望不要忘得太快啦！</p>
+    <content><![CDATA[<p>避免自己忘記語法，第一篇blog記錄寫blog常用到的語法。<br>第一次學，希望不要忘得太快啦！</p>
 <span id="more"></span>
 <hr>
 <h1 id="hexo"><a href="#hexo" class="headerlink" title="hexo"></a>hexo</h1><p>在blog資料夾下執行：</p>
-<h2 id="1-創建資料夾"><a href="#1-創建資料夾" class="headerlink" title="1. 創建資料夾"></a>1. 創建資料夾</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo n page folder_name</span><br></pre></td></tr></table></figure>
-<h2 id="2-新建文章"><a href="#2-新建文章" class="headerlink" title="2. 新建文章"></a>2. 新建文章</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo n &quot;title&quot;  //或 hexo new &quot;title&quot;</span><br></pre></td></tr></table></figure>
-<h2 id="3-部署至github"><a href="#3-部署至github" class="headerlink" title="3. 部署至github"></a>3. 部署至github</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo clean  //清空</span><br><span class="line">hexo g      //generate</span><br><span class="line">hexo d  //deploy(部署)</span><br></pre></td></tr></table></figure>
-<h2 id="4-預覽"><a href="#4-預覽" class="headerlink" title="4. 預覽"></a>4. 預覽</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo s</span><br></pre></td></tr></table></figure>
-<h2 id="5-head部分"><a href="#5-head部分" class="headerlink" title="5. head部分"></a>5. head部分</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">---</span><br><span class="line">title: 第一篇 - 寫blog用到的語法紀錄</span><br><span class="line">date: 2021-06-29 17:46:55</span><br><span class="line">tags: </span><br><span class="line">    - hexo</span><br><span class="line">    - Markdown</span><br><span class="line">categories: blog筆記</span><br><span class="line">---</span><br></pre></td></tr></table></figure>
+<h2 id="1-創建資料夾"><a href="#1-創建資料夾" class="headerlink" title="1. 創建資料夾"></a>1. 創建資料夾</h2><figure class="highlight ebnf"><table><tr><td class="code"><pre><span class="line"><span class="attribute">hexo n page folder_name</span></span><br></pre></td></tr></table></figure>
+<h2 id="2-新建文章"><a href="#2-新建文章" class="headerlink" title="2. 新建文章"></a>2. 新建文章</h2><figure class="highlight awk"><table><tr><td class="code"><pre><span class="line">hexo n <span class="string">&quot;title&quot;</span>  <span class="regexp">//</span>或 hexo new <span class="string">&quot;title&quot;</span></span><br></pre></td></tr></table></figure>
+<h2 id="3-部署至github"><a href="#3-部署至github" class="headerlink" title="3. 部署至github"></a>3. 部署至github</h2><figure class="highlight awk"><table><tr><td class="code"><pre><span class="line">hexo clean  <span class="regexp">//</span>清空</span><br><span class="line">hexo g      <span class="regexp">//g</span>enerate</span><br><span class="line">hexo d  <span class="regexp">//</span>deploy(部署)</span><br></pre></td></tr></table></figure>
+<h2 id="4-預覽"><a href="#4-預覽" class="headerlink" title="4. 預覽"></a>4. 預覽</h2><figure class="highlight ebnf"><table><tr><td class="code"><pre><span class="line"><span class="attribute">hexo s</span></span><br></pre></td></tr></table></figure>
+<h2 id="5-head部分"><a href="#5-head部分" class="headerlink" title="5. head部分"></a>5. head部分</h2><figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="meta">---</span></span><br><span class="line"><span class="attr">title:</span> <span class="string">第一篇</span> <span class="bullet">-</span> <span class="string">寫blog用到的語法紀錄</span></span><br><span class="line"><span class="attr">date:</span> <span class="number">2021-06-29 17:46:55</span></span><br><span class="line"><span class="attr">tags:</span> </span><br><span class="line">    <span class="bullet">-</span> <span class="string">hexo</span></span><br><span class="line">    <span class="bullet">-</span> <span class="string">Markdown</span></span><br><span class="line"><span class="attr">categories:</span> <span class="string">blog筆記</span></span><br><span class="line"><span class="meta">---</span></span><br></pre></td></tr></table></figure>
 <hr>
 <h1 id="Markdown"><a href="#Markdown" class="headerlink" title="Markdown"></a>Markdown</h1><h2 id="1-標題-1-6級"><a href="#1-標題-1-6級" class="headerlink" title="1. 標題(1-6級)"></a>1. 標題(1-6級)</h2><figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line"><span class="section"># 1級標題</span></span><br><span class="line"><span class="section">## 2級標題</span></span><br><span class="line"><span class="section">### 3級標題</span></span><br><span class="line">...</span><br><span class="line"><span class="section">###### 6級標題</span></span><br></pre></td></tr></table></figure>
 <h2 id="2-段落換行"><a href="#2-段落換行" class="headerlink" title="2. 段落換行"></a>2. 段落換行</h2><p><kbd>2個以上空格</kbd>加<kbd>enter</kbd> 或 空一行</p>
@@ -64,6 +51,19 @@
       <tags>
         <tag>hexo</tag>
         <tag>Markdown</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>刷題記錄</title>
+    <url>/2021/06/30/%E5%88%B7%E9%A1%8C%E8%A8%98%E9%8C%84-1/</url>
+    <content><![CDATA[<figure class="highlight php"><table><tr><td class="code"><pre><span class="line"><span class="keyword">echo</span> <span class="string">&quot;hi&quot;</span></span><br></pre></td></tr></table></figure>
+]]></content>
+      <categories>
+        <category>cpe</category>
+        <category>uva</category>
+      </categories>
+      <tags>
+        <tag>c++</tag>
       </tags>
   </entry>
 </search>
