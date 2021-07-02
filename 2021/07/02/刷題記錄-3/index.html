@@ -29,7 +29,7 @@
 <meta property="og:description" content="本篇含cpe必考1星題庫中21~30題。">
 <meta property="og:locale" content="zh_TW">
 <meta property="article:published_time" content="2021-07-02T02:06:30.000Z">
-<meta property="article:modified_time" content="2021-07-02T16:52:19.377Z">
+<meta property="article:modified_time" content="2021-07-02T16:53:48.262Z">
 <meta property="article:author" content="sunny2021137">
 <meta property="article:tag" content="c++">
 <meta name="twitter:card" content="summary">
@@ -205,7 +205,7 @@
                   <i class="far fa-calendar-check"></i>
                 </span>
                 <span class="post-meta-item-text">更新於</span>
-                <time title="修改時間：2021-07-03 00:52:19" itemprop="dateModified" datetime="2021-07-03T00:52:19+08:00">2021-07-03</time>
+                <time title="修改時間：2021-07-03 00:53:48" itemprop="dateModified" datetime="2021-07-03T00:53:48+08:00">2021-07-03</time>
               </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
@@ -252,7 +252,7 @@
 <h1 id="22-uva-11461"><a href="#22-uva-11461" class="headerlink" title="22. uva #11461"></a>22. uva #11461</h1><ul>
 <li><a target="_blank" rel="noopener" href="http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=2456">題目連結</a></li>
 <li><strong>題目大意：</strong>求閉區間內，有幾個完全平方數。</li>
-<li><strong>核心思路：</strong>用sqrt()求某數平方根值(為double)並強制轉換成整數(int)，若該整數的平方等於某數，則某數為完全平方數。</li>
+<li><strong>核心思路：</strong><br>用sqrt()求某數平方根值(為double)並強制轉換成整數(int)，若該整數的平方等於某數，則某數為完全平方數。</li>
 </ul>
 <figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;cmath&gt;</span>	<span class="comment">//為了sqrt() </span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="keyword">int</span> a, b;</span><br><span class="line">	<span class="keyword">int</span> tmp;</span><br><span class="line">	<span class="keyword">int</span> cnt;</span><br><span class="line">	<span class="keyword">while</span>(cin&gt;&gt;a&gt;&gt;b)</span><br><span class="line">	&#123;</span><br><span class="line">		<span class="keyword">if</span>(a==<span class="number">0</span>) <span class="keyword">break</span>;	<span class="comment">//輸入為&quot;0 0&quot;程式結束，因題目有說 (0 &lt; a ≤ b ≤ 100000)，檢查a是否為0即可判定是否結束</span></span><br><span class="line">		cnt=<span class="number">0</span>;</span><br><span class="line">		<span class="keyword">for</span>(<span class="keyword">int</span> i=a; i&lt;=b; i++)</span><br><span class="line">		&#123;</span><br><span class="line">			tmp=(<span class="keyword">int</span>)<span class="built_in">sqrt</span>(i);	<span class="comment">//平方根值(double)強制轉換成整數(int)</span></span><br><span class="line">			<span class="keyword">if</span>(tmp*tmp==i) cnt++;	<span class="comment">//為完全平方數，cnt++</span></span><br><span class="line">		&#125;</span><br><span class="line">		cout&lt;&lt;cnt&lt;&lt;endl;</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
