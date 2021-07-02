@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#222">
+<meta name="generator" content="Hexo 5.4.0">
+<meta name="google-site-verification" content="RAm8THRf2wDdVpI2gOxCNtlKx9xAIz3Oxha59Ta9vxI" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+<link rel="stylesheet" href="/lib/font-awesome/css/all.min.css">
+
+<script id="hexo-configurations">
+    var NexT = window.NexT || {};
+    var CONFIG = {"hostname":"sunny2021137.github.io","root":"/","scheme":"Gemini","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":true,"show_result":true,"style":"default"},"back2top":{"enable":true,"sidebar":false,"scrollpercent":true},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"expandIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
+  </script>
+
+  <meta name="description" content="本篇含cpe必考1星題庫中41~49題。">
+<meta property="og:type" content="article">
+<meta property="og:title" content="刷題記錄 5： cpe必考1星題庫41~49題">
+<meta property="og:url" content="https://sunny2021137.github.io/2021/07/02/%E5%88%B7%E9%A1%8C%E8%A8%98%E9%8C%84-5/index.html">
+<meta property="og:site_name" content="貝貝&#39;s Blog">
+<meta property="og:description" content="本篇含cpe必考1星題庫中41~49題。">
+<meta property="og:locale" content="zh_TW">
+<meta property="article:published_time" content="2021-07-02T03:34:58.000Z">
+<meta property="article:modified_time" content="2021-07-02T04:10:59.124Z">
+<meta property="article:author" content="sunny2021137">
+<meta property="article:tag" content="c++">
+<meta name="twitter:card" content="summary">
+
+<link rel="canonical" href="https://sunny2021137.github.io/2021/07/02/%E5%88%B7%E9%A1%8C%E8%A8%98%E9%8C%84-5/">
+
+
+<script id="page-configurations">
+  // https://hexo.io/docs/variables.html
+  CONFIG.page = {
+    sidebar: "",
+    isHome : false,
+    isPost : true,
+    lang   : 'zh-TW'
+  };
+</script>
+
+  <title>刷題記錄 5： cpe必考1星題庫41~49題 | 貝貝's Blog</title>
+  
+
+
+
+
+
+
+  <noscript>
+  <style>
+  .use-motion .brand,
+  .use-motion .menu-item,
+  .sidebar-inner,
+  .use-motion .post-block,
+  .use-motion .pagination,
+  .use-motion .comments,
+  .use-motion .post-header,
+  .use-motion .post-body,
+  .use-motion .collection-header { opacity: initial; }
+
+  .use-motion .site-title,
+  .use-motion .site-subtitle {
+    opacity: initial;
+    top: initial;
+  }
+
+  .use-motion .logo-line-before i { left: initial; }
+  .use-motion .logo-line-after i { right: initial; }
+  </style>
+</noscript>
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage">
+  <div class="container use-motion">
+    <div class="headband"></div>
+
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切換導航欄">
+      <span class="toggle-line toggle-line-first"></span>
+      <span class="toggle-line toggle-line-middle"></span>
+      <span class="toggle-line toggle-line-last"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <span class="logo-line-before"><i></i></span>
+      <h1 class="site-title">貝貝's Blog</h1>
+      <span class="logo-line-after"><i></i></span>
+    </a>
+      <p class="site-subtitle" itemprop="description">記錄、學習、生活</p>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger">
+    </div>
+  </div>
+</div>
+
+
+
+
+<nav class="site-nav">
+  <ul id="menu" class="main-menu menu">
+        <li class="menu-item menu-item-home">
+
+    <a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首頁</a>
+
+  </li>
+        <li class="menu-item menu-item-about">
+
+    <a href="/about/" rel="section"><i class="fa fa-user fa-fw"></i>關於</a>
+
+  </li>
+        <li class="menu-item menu-item-tags">
+
+    <a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>標籤</a>
+
+  </li>
+        <li class="menu-item menu-item-categories">
+
+    <a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>分類</a>
+
+  </li>
+        <li class="menu-item menu-item-archives">
+
+    <a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>歸檔</a>
+
+  </li>
+        <li class="menu-item menu-item-sitemap">
+
+    <a href="/sitemap.xml" rel="section"><i class="fa fa-sitemap fa-fw"></i>網站地圖</a>
+
+  </li>
+  </ul>
+</nav>
+
+
+
+
+</div>
+    </header>
+
+    
+  <div class="back-to-top">
+    <i class="fa fa-arrow-up"></i>
+    <span>0%</span>
+  </div>
+
+  <a href="https://github.com/sunny2021137" class="github-corner" title="Follow me on GitHub" aria-label="Follow me on GitHub" rel="noopener" target="_blank"><svg width="80" height="80" viewBox="0 0 250 250" aria-hidden="true"><path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a>
+
+
+    <main class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          
+
+          <div class="content post posts-expand">
+            
+
+    
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-TW">
+    <link itemprop="mainEntityOfPage" href="https://sunny2021137.github.io/2021/07/02/%E5%88%B7%E9%A1%8C%E8%A8%98%E9%8C%84-5/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/beibeiBig.png">
+      <meta itemprop="name" content="sunny2021137">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="貝貝's Blog">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          刷題記錄 5： cpe必考1星題庫41~49題
+        </h1>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">發表於</span>
+              
+
+              <time title="創建時間：2021-07-02 11:34:58 / 修改時間：12:10:59" itemprop="dateCreated datePublished" datetime="2021-07-02T11:34:58+08:00">2021-07-02</time>
+            </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">分類於</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/cpe-uva/" itemprop="url" rel="index"><span itemprop="name">cpe uva</span></a>
+                </span>
+                  ，
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/cpe-uva/1%E6%98%9F/" itemprop="url" rel="index"><span itemprop="name">1星</span></a>
+                </span>
+                  ，
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/cpe-uva/1%E6%98%9F/cpe%E5%BF%85%E8%80%831%E6%98%9F%E9%A1%8C%E5%BA%AB/" itemprop="url" rel="index"><span itemprop="name">cpe必考1星題庫</span></a>
+                </span>
+            </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+        <p>本篇含cpe必考1星題庫中41~49題。<br> <span id="more"></span><br>本篇篇幅較大，可點選左列索引，跳至想查看的題目。</p>
+<h1 id="41-uva-10062"><a href="#41-uva-10062" class="headerlink" title="41. uva #10062"></a>41. uva #10062</h1><ul>
+<li><a target="_blank" rel="noopener" href="https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=1003">題目連結</a></li>
+<li><strong>題目大意：</strong></li>
+<li><strong>核心思路：</strong><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;map&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;vector&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;algorithm&gt;</span>	<span class="comment">//為了sort </span></span></span><br><span class="line"><span class="comment">//44</span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"><span class="comment">//頻率-ASCII 的struct，方便排序 </span></span><br><span class="line"><span class="class"><span class="keyword">struct</span> <span class="title">af</span> &#123;</span></span><br><span class="line">	<span class="keyword">int</span> ascii;</span><br><span class="line">	<span class="keyword">int</span> f;</span><br><span class="line">&#125;;</span><br><span class="line"><span class="comment">//由f小排到大，f相等依ascii由大排到小 </span></span><br><span class="line"><span class="function"><span class="keyword">bool</span> <span class="title">cmp</span><span class="params">(af a, af b)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="keyword">if</span>(a.f&lt;b.f) <span class="keyword">return</span> <span class="literal">true</span>;</span><br><span class="line">	<span class="keyword">else</span> <span class="keyword">if</span>(a.f==b.f)</span><br><span class="line">	&#123;</span><br><span class="line">		<span class="keyword">if</span>(a.ascii&lt;b.ascii) <span class="keyword">return</span> <span class="literal">false</span>;</span><br><span class="line">		<span class="keyword">else</span> <span class="keyword">return</span> <span class="literal">true</span>;	</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">else</span> <span class="keyword">return</span> <span class="literal">false</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="keyword">bool</span> first=<span class="literal">true</span>;</span><br><span class="line">	string s;</span><br><span class="line">	map&lt;<span class="keyword">int</span>, <span class="keyword">int</span>&gt; m;	<span class="comment">//1st map: asc, f</span></span><br><span class="line">	vector&lt;af&gt; v;	</span><br><span class="line">	<span class="keyword">while</span>(<span class="built_in">getline</span>(cin,s))</span><br><span class="line">	&#123;</span><br><span class="line">		<span class="comment">/*注意，最後一個沒有空一行!!!*/</span></span><br><span class="line">		<span class="keyword">if</span>(!first) cout&lt;&lt;endl;</span><br><span class="line">		<span class="keyword">else</span> first=<span class="literal">false</span>;</span><br><span class="line">			</span><br><span class="line">		m.<span class="built_in">clear</span>();</span><br><span class="line">		v.<span class="built_in">clear</span>();</span><br><span class="line">		<span class="keyword">for</span>(<span class="keyword">int</span> i=<span class="number">0</span>; i&lt;s.<span class="built_in">length</span>(); i++)</span><br><span class="line">			m[(<span class="keyword">int</span>)s[i]]++;</span><br><span class="line">		</span><br><span class="line">		map&lt;<span class="keyword">int</span>, <span class="keyword">int</span>&gt;::iterator it;</span><br><span class="line">		<span class="keyword">for</span>(it=m.<span class="built_in">begin</span>(); it!=m.<span class="built_in">end</span>(); it++)</span><br><span class="line">		&#123;</span><br><span class="line">			af tmp;</span><br><span class="line">			tmp.ascii=it-&gt;first;</span><br><span class="line">			tmp.f=it-&gt;second;</span><br><span class="line"><span class="comment">//			cout&lt;&lt;&quot;t:&quot;&lt;&lt;tmp.ascii&lt;&lt;&quot; &quot;&lt;&lt;tmp.f&lt;&lt;endl;</span></span><br><span class="line">			v.<span class="built_in">push_back</span>(tmp);</span><br><span class="line">		&#125;</span><br><span class="line">		<span class="comment">//排列</span></span><br><span class="line">		<span class="built_in">sort</span>(v.<span class="built_in">begin</span>(), v.<span class="built_in">end</span>(), cmp); 	</span><br><span class="line">		</span><br><span class="line">		<span class="keyword">for</span>(<span class="keyword">int</span> i=<span class="number">0</span>; i&lt;v.<span class="built_in">size</span>(); i++)</span><br><span class="line">			cout&lt;&lt;v[i].ascii&lt;&lt;<span class="string">&quot; &quot;</span>&lt;&lt;v[i].f&lt;&lt;endl;</span><br><span class="line">	&#125;</span><br><span class="line">&#125; </span><br><span class="line"></span><br></pre></td></tr></table></figure></li>
+</ul>
+<h1 id="42-uva-299"><a href="#42-uva-299" class="headerlink" title="42. uva #299"></a>42. uva #299</h1><ul>
+<li><a target="_blank" rel="noopener" href="https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=235">題目連結</a></li>
+<li><strong>題目大意：</strong></li>
+<li><strong>核心思路：</strong><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="comment">//20 bbs</span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"> </span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="keyword">int</span> t, n;</span><br><span class="line">	<span class="keyword">while</span>(cin&gt;&gt;t)</span><br><span class="line">	&#123;</span><br><span class="line">		<span class="keyword">for</span>(<span class="keyword">int</span> k=<span class="number">0</span>; k&lt;t; k++)</span><br><span class="line">		&#123;</span><br><span class="line">			cin&gt;&gt;n;</span><br><span class="line">			<span class="keyword">int</span> item[n];</span><br><span class="line">			<span class="keyword">for</span>(<span class="keyword">int</span> i=<span class="number">0</span>; i&lt;n; i++)</span><br><span class="line">			&#123;</span><br><span class="line">				cin&gt;&gt;item[i];</span><br><span class="line">			&#125;</span><br><span class="line">			<span class="keyword">int</span> cnt=<span class="number">0</span>;</span><br><span class="line">			<span class="keyword">for</span>(<span class="keyword">int</span> i=<span class="number">0</span>; i&lt;n<span class="number">-1</span>; i++)</span><br><span class="line">				<span class="keyword">for</span>(<span class="keyword">int</span> j=<span class="number">0</span>; j&lt;n-i<span class="number">-1</span>; j++)</span><br><span class="line">					<span class="keyword">if</span>(item[j]&gt;item[j+<span class="number">1</span>])</span><br><span class="line">					&#123;</span><br><span class="line">						cnt++;</span><br><span class="line">						<span class="keyword">int</span> tmp=item[j];</span><br><span class="line">						item[j]=item[j+<span class="number">1</span>];</span><br><span class="line">						item[j+<span class="number">1</span>]=tmp;</span><br><span class="line">					&#125;</span><br><span class="line">			cout&lt;&lt;<span class="string">&quot;Optimal train swapping takes &quot;</span>&lt;&lt;cnt&lt;&lt;<span class="string">&quot; swaps.&quot;</span>&lt;&lt;endl;</span><br><span class="line">		&#125;</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></li>
+</ul>
+<h1 id="43-uva-10226"><a href="#43-uva-10226" class="headerlink" title="43. uva #10226"></a>43. uva #10226</h1><ul>
+<li><a target="_blank" rel="noopener" href="https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=1167">題目連結</a></li>
+<li><strong>題目大意：</strong></li>
+<li><strong>核心思路：</strong><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;iomanip&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;map&gt;</span> </span></span><br><span class="line"><span class="comment">//56 </span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	string tree;</span><br><span class="line">	map&lt;string, <span class="keyword">int</span>&gt; cnt;</span><br><span class="line">	<span class="keyword">int</span> total=<span class="number">0</span>;</span><br><span class="line">	<span class="keyword">int</span> n;</span><br><span class="line">	<span class="keyword">while</span>(cin&gt;&gt;n)</span><br><span class="line">	&#123;</span><br><span class="line">		cin.<span class="built_in">ignore</span>();<span class="comment">//&#x27;\n&#x27;</span></span><br><span class="line">		cin.<span class="built_in">get</span>();<span class="comment">//空白行 </span></span><br><span class="line">		<span class="keyword">for</span>(<span class="keyword">int</span> i=<span class="number">0</span>; i&lt;n; i++)</span><br><span class="line">		&#123;</span><br><span class="line">			<span class="keyword">if</span>(i!=<span class="number">0</span>) cout&lt;&lt;endl; </span><br><span class="line">			cnt.<span class="built_in">clear</span>();</span><br><span class="line">			total=<span class="number">0</span>;</span><br><span class="line">			<span class="comment">//若為空白行，getline讀到的會是&quot;&quot;! </span></span><br><span class="line">			<span class="keyword">while</span>(<span class="built_in">getline</span>(cin, tree) &amp;&amp; tree!=<span class="string">&quot;&quot;</span>)</span><br><span class="line">			&#123;</span><br><span class="line">				<span class="comment">//cnt</span></span><br><span class="line">				cnt[tree]++;</span><br><span class="line">				<span class="comment">//total</span></span><br><span class="line">				total++;</span><br><span class="line">			&#125;</span><br><span class="line">			<span class="comment">//fractional</span></span><br><span class="line">			map&lt;string, <span class="keyword">int</span>&gt;::iterator it;</span><br><span class="line">			<span class="keyword">for</span>(it=cnt.<span class="built_in">begin</span>(); it!=cnt.<span class="built_in">end</span>(); it++)</span><br><span class="line">			&#123;</span><br><span class="line">				cout&lt;&lt;it-&gt;first;</span><br><span class="line">				<span class="comment">//小數4位 </span></span><br><span class="line">				cout&lt;&lt;fixed&lt;&lt;<span class="built_in">setprecision</span>(<span class="number">4</span>)&lt;&lt;<span class="string">&quot; &quot;</span>&lt;&lt;(<span class="keyword">double</span>)(it-&gt;second)/(<span class="keyword">double</span>)total*<span class="number">100.0</span>&lt;&lt;endl;</span><br><span class="line">			&#125;</span><br><span class="line">		&#125;</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></li>
+</ul>
+<h1 id="44-uva-10189"><a href="#44-uva-10189" class="headerlink" title="44. uva #10189"></a>44. uva #10189</h1><ul>
+<li><a target="_blank" rel="noopener" href="https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=1130">題目連結</a></li>
+<li><strong>題目大意：</strong></li>
+<li><strong>核心思路：</strong><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//36</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"> </span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="keyword">int</span> n, m;</span><br><span class="line">	<span class="keyword">int</span> f=<span class="number">0</span>;</span><br><span class="line">	<span class="keyword">while</span>(cin&gt;&gt;m&gt;&gt;n)</span><br><span class="line">	&#123;</span><br><span class="line">		<span class="keyword">if</span>(m==<span class="number">0</span> &amp;&amp; n==<span class="number">0</span>) <span class="keyword">break</span>;</span><br><span class="line">		f++;</span><br><span class="line">		<span class="keyword">if</span>(f!=<span class="number">1</span>) cout&lt;&lt;endl;</span><br><span class="line">		cout&lt;&lt;<span class="string">&quot;Field #&quot;</span>&lt;&lt;f&lt;&lt;<span class="string">&quot;:&quot;</span>&lt;&lt;endl;</span><br><span class="line">		<span class="keyword">char</span> g[m][n];</span><br><span class="line">		<span class="keyword">for</span>(<span class="keyword">int</span> i=<span class="number">0</span>; i&lt;m; i++)</span><br><span class="line">		&#123;</span><br><span class="line">			<span class="keyword">for</span>(<span class="keyword">int</span> j=<span class="number">0</span>; j&lt;n; j++)</span><br><span class="line">			&#123;</span><br><span class="line">				cin&gt;&gt;g[i][j];</span><br><span class="line">			&#125;</span><br><span class="line">		&#125;</span><br><span class="line">			</span><br><span class="line">		<span class="keyword">for</span>(<span class="keyword">int</span> i=<span class="number">0</span>; i&lt;m; i++)</span><br><span class="line">		&#123;</span><br><span class="line">			<span class="keyword">for</span>(<span class="keyword">int</span> j=<span class="number">0</span>; j&lt;n; j++)</span><br><span class="line">			&#123;</span><br><span class="line">				<span class="comment">//ÀË¬d8Ãä</span></span><br><span class="line">				<span class="keyword">int</span> cnt=<span class="number">0</span>;</span><br><span class="line">				<span class="keyword">if</span>(g[i][j]!=<span class="string">&#x27;*&#x27;</span>)</span><br><span class="line">				&#123;</span><br><span class="line">					<span class="keyword">for</span>(<span class="keyword">int</span> k=<span class="number">-1</span>; k&lt;=<span class="number">1</span>; k++)</span><br><span class="line">					&#123;</span><br><span class="line">						<span class="keyword">for</span>(<span class="keyword">int</span> l=<span class="number">-1</span>; l&lt;=<span class="number">1</span>; l++)</span><br><span class="line">							<span class="keyword">if</span>(i+k&gt;=<span class="number">0</span> &amp;&amp; i+k&lt;m &amp;&amp; j+l&gt;=<span class="number">0</span> &amp;&amp; j+l&lt;n)</span><br><span class="line">							&#123; </span><br><span class="line">								<span class="keyword">if</span>(g[i+k][j+l]==<span class="string">&#x27;*&#x27;</span>)</span><br><span class="line">								&#123;</span><br><span class="line">									cnt++;</span><br><span class="line">								&#125;</span><br><span class="line">							&#125;</span><br><span class="line">					&#125;</span><br><span class="line">					</span><br><span class="line">					cout&lt;&lt;cnt; </span><br><span class="line">				&#125;</span><br><span class="line">				<span class="keyword">else</span> cout&lt;&lt;<span class="string">&quot;*&quot;</span>;</span><br><span class="line">			&#125;</span><br><span class="line">			cout&lt;&lt;endl;</span><br><span class="line">		&#125;</span><br><span class="line">	&#125;</span><br><span class="line">&#125; </span><br></pre></td></tr></table></figure></li>
+</ul>
+<h1 id="45-uva-10409"><a href="#45-uva-10409" class="headerlink" title="45. uva #10409"></a>45. uva #10409</h1><ul>
+<li><a target="_blank" rel="noopener" href="https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=1350">題目連結</a></li>
+<li><strong>題目大意：</strong></li>
+<li><strong>核心思路：</strong><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	string s;</span><br><span class="line">	<span class="keyword">int</span> n;</span><br><span class="line">	<span class="comment">//¤W¤U¥ª¥k«e«á </span></span><br><span class="line">	<span class="keyword">int</span> top=<span class="number">1</span>;</span><br><span class="line">	<span class="keyword">int</span> bottom=<span class="number">6</span>;</span><br><span class="line">	<span class="keyword">int</span> left=<span class="number">3</span>;</span><br><span class="line">	<span class="keyword">int</span> right=<span class="number">4</span>;</span><br><span class="line">	<span class="keyword">int</span> front=<span class="number">5</span>;</span><br><span class="line">	<span class="keyword">int</span> back=<span class="number">2</span>;</span><br><span class="line">	<span class="keyword">while</span>(cin&gt;&gt;n)</span><br><span class="line">	&#123;</span><br><span class="line">		<span class="keyword">if</span>(n==<span class="number">0</span>) <span class="keyword">break</span>;</span><br><span class="line">		top=<span class="number">1</span>;</span><br><span class="line">		bottom=<span class="number">6</span>;</span><br><span class="line">		left=<span class="number">3</span>;</span><br><span class="line">		right=<span class="number">4</span>;</span><br><span class="line">		front=<span class="number">5</span>;</span><br><span class="line">		back=<span class="number">2</span>;</span><br><span class="line">		<span class="keyword">for</span>(<span class="keyword">int</span> i=<span class="number">0</span>; i&lt;n; i++)</span><br><span class="line">		&#123;</span><br><span class="line">			cin&gt;&gt;s;</span><br><span class="line">			<span class="keyword">if</span>(s==<span class="string">&quot;east&quot;</span>)</span><br><span class="line">			&#123;</span><br><span class="line">				<span class="keyword">int</span> tmp=top;</span><br><span class="line">				top=left;</span><br><span class="line">				left=bottom;</span><br><span class="line">				bottom=right;</span><br><span class="line">				right=tmp;</span><br><span class="line">			&#125;</span><br><span class="line">			<span class="keyword">else</span> <span class="keyword">if</span>(s==<span class="string">&quot;west&quot;</span>)</span><br><span class="line">			&#123;</span><br><span class="line">				<span class="keyword">int</span> tmp=top; </span><br><span class="line">				top=right;</span><br><span class="line">				right=bottom;</span><br><span class="line">				bottom=left;</span><br><span class="line">				left=tmp;</span><br><span class="line">			&#125;</span><br><span class="line">			<span class="keyword">else</span> <span class="keyword">if</span>(s==<span class="string">&quot;south&quot;</span>)</span><br><span class="line">			&#123;</span><br><span class="line">				<span class="keyword">int</span> tmp=top; </span><br><span class="line">				top=back;</span><br><span class="line">				back=bottom;</span><br><span class="line">				bottom=front;</span><br><span class="line">				front=tmp;</span><br><span class="line">			&#125;</span><br><span class="line">			<span class="keyword">else</span></span><br><span class="line">			&#123;</span><br><span class="line">				<span class="keyword">int</span> tmp=top; </span><br><span class="line">				top=front;</span><br><span class="line">				front=bottom;</span><br><span class="line">				bottom=back;</span><br><span class="line">				back=tmp; </span><br><span class="line">			&#125;</span><br><span class="line">		&#125;</span><br><span class="line">		cout&lt;&lt;top&lt;&lt;endl;</span><br><span class="line">	&#125;</span><br><span class="line">&#125; </span><br><span class="line"></span><br></pre></td></tr></table></figure></li>
+</ul>
+<h1 id="46-uva-10415"><a href="#46-uva-10415" class="headerlink" title="46. uva #10415"></a>46. uva #10415</h1><ul>
+<li><a target="_blank" rel="noopener" href="https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=1356">題目連結</a></li>
+<li><strong>題目大意：</strong></li>
+<li><strong>核心思路：</strong><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;map&gt;</span></span></span><br><span class="line"><span class="comment">//67</span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="keyword">int</span> n=<span class="number">0</span>;</span><br><span class="line">	<span class="comment">//指法 </span></span><br><span class="line">	map&lt;<span class="keyword">char</span>, string&gt; need;</span><br><span class="line">	need[<span class="string">&#x27;c&#x27;</span>]=<span class="string">&quot;0111001111&quot;</span>;</span><br><span class="line">	need[<span class="string">&#x27;d&#x27;</span>]=<span class="string">&quot;0111001110&quot;</span>;</span><br><span class="line">	need[<span class="string">&#x27;e&#x27;</span>]=<span class="string">&quot;0111001100&quot;</span>;</span><br><span class="line">	need[<span class="string">&#x27;f&#x27;</span>]=<span class="string">&quot;0111001000&quot;</span>;</span><br><span class="line">	need[<span class="string">&#x27;g&#x27;</span>]=<span class="string">&quot;0111000000&quot;</span>;</span><br><span class="line">	need[<span class="string">&#x27;a&#x27;</span>]=<span class="string">&quot;0110000000&quot;</span>;</span><br><span class="line">	need[<span class="string">&#x27;b&#x27;</span>]=<span class="string">&quot;0100000000&quot;</span>;</span><br><span class="line">	need[<span class="string">&#x27;C&#x27;</span>]=<span class="string">&quot;0010000000&quot;</span>;</span><br><span class="line">	need[<span class="string">&#x27;D&#x27;</span>]=<span class="string">&quot;1111001110&quot;</span>;</span><br><span class="line">	need[<span class="string">&#x27;E&#x27;</span>]=<span class="string">&quot;1111001100&quot;</span>;</span><br><span class="line">	need[<span class="string">&#x27;F&#x27;</span>]=<span class="string">&quot;1111001000&quot;</span>;</span><br><span class="line">	need[<span class="string">&#x27;G&#x27;</span>]=<span class="string">&quot;1111000000&quot;</span>;</span><br><span class="line">	need[<span class="string">&#x27;A&#x27;</span>]=<span class="string">&quot;1110000000&quot;</span>;</span><br><span class="line">	need[<span class="string">&#x27;B&#x27;</span>]=<span class="string">&quot;1100000000&quot;</span>;</span><br><span class="line">	string s;	 </span><br><span class="line">	<span class="comment">//有空輸入用getline()!! </span></span><br><span class="line">	<span class="keyword">while</span>(cin&gt;&gt;n)</span><br><span class="line">	&#123;</span><br><span class="line">		cin.<span class="built_in">ignore</span>();<span class="comment">//清\n</span></span><br><span class="line">		<span class="keyword">for</span>(<span class="keyword">int</span> i=<span class="number">0</span>; i&lt;n; i++)</span><br><span class="line">		&#123;</span><br><span class="line">			<span class="built_in">getline</span>(cin, s);</span><br><span class="line">			<span class="keyword">int</span> cnt[<span class="number">10</span>]=&#123;<span class="number">0</span>&#125;;</span><br><span class="line">			<span class="keyword">int</span> pressed[<span class="number">10</span>]=&#123;<span class="number">0</span>&#125;; <span class="comment">//按著的情況 </span></span><br><span class="line">			<span class="keyword">for</span>(<span class="keyword">int</span> i=<span class="number">0</span>; i&lt;s.<span class="built_in">length</span>(); i++)</span><br><span class="line">			&#123;</span><br><span class="line">				<span class="keyword">if</span>(i==<span class="number">0</span>)</span><br><span class="line">				&#123;</span><br><span class="line">					<span class="keyword">for</span>(<span class="keyword">int</span> j=<span class="number">0</span>; j&lt;<span class="number">10</span>; j++)</span><br><span class="line">						<span class="keyword">if</span>(need[s[i]][j]==<span class="string">&#x27;1&#x27;</span>)</span><br><span class="line">						&#123;</span><br><span class="line">							cnt[j]++;</span><br><span class="line">							pressed[j]=<span class="literal">true</span>;</span><br><span class="line">						&#125;</span><br><span class="line">						<span class="keyword">else</span> pressed[j]=<span class="literal">false</span>;</span><br><span class="line">				&#125;</span><br><span class="line">				<span class="keyword">else</span></span><br><span class="line">				&#123;</span><br><span class="line">					<span class="comment">//比對上次 </span></span><br><span class="line">					<span class="keyword">for</span>(<span class="keyword">int</span> j=<span class="number">0</span>; j&lt;<span class="number">10</span>; j++)</span><br><span class="line">						<span class="keyword">if</span>(need[s[i]][j]==<span class="string">&#x27;1&#x27;</span>)</span><br><span class="line">						&#123;</span><br><span class="line">							<span class="keyword">if</span>(!pressed[j]) cnt[j]++;</span><br><span class="line">							pressed[j]=<span class="literal">true</span>;</span><br><span class="line">						&#125;</span><br><span class="line">						<span class="keyword">else</span> pressed[j]=<span class="literal">false</span>;</span><br><span class="line">				&#125;</span><br><span class="line">			&#125;</span><br><span class="line">			<span class="keyword">for</span>(<span class="keyword">int</span> i=<span class="number">0</span>; i&lt;<span class="number">10</span>; i++)</span><br><span class="line">			&#123;</span><br><span class="line">				<span class="keyword">if</span>(i!=<span class="number">0</span>)cout&lt;&lt;<span class="string">&quot; &quot;</span>;</span><br><span class="line">				cout&lt;&lt;cnt[i];</span><br><span class="line">			&#125;</span><br><span class="line">			cout&lt;&lt;endl;	</span><br><span class="line">		&#125;</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></li>
+</ul>
+<h1 id="47-uva-118"><a href="#47-uva-118" class="headerlink" title="47. uva #118"></a>47. uva #118</h1><ul>
+<li><a target="_blank" rel="noopener" href="https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=54">題目連結</a></li>
+<li><strong>題目大意：</strong></li>
+<li><strong>核心思路：</strong><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br><span class="line">82</span><br><span class="line">83</span><br><span class="line">84</span><br><span class="line">85</span><br><span class="line">86</span><br><span class="line">87</span><br><span class="line">88</span><br><span class="line">89</span><br><span class="line">90</span><br><span class="line">91</span><br><span class="line">92</span><br><span class="line">93</span><br><span class="line">94</span><br><span class="line">95</span><br><span class="line">96</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="comment">//.02</span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"></span><br><span class="line"><span class="comment">//決定動向 </span></span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">recO</span><span class="params">(<span class="keyword">char</span> oi, <span class="keyword">int</span> o[], <span class="keyword">int</span> &amp;index)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="built_in"><span class="keyword">switch</span></span>(oi)</span><br><span class="line">	&#123;</span><br><span class="line">		<span class="keyword">case</span> <span class="string">&#x27;N&#x27;</span>:</span><br><span class="line">			o[<span class="number">0</span>]=<span class="number">0</span>;</span><br><span class="line">			o[<span class="number">1</span>]=<span class="number">1</span>;</span><br><span class="line">			index=<span class="number">0</span>;</span><br><span class="line">			<span class="keyword">break</span>;	</span><br><span class="line">		<span class="keyword">case</span> <span class="string">&#x27;E&#x27;</span>:</span><br><span class="line">			o[<span class="number">0</span>]=<span class="number">1</span>;</span><br><span class="line">			o[<span class="number">1</span>]=<span class="number">0</span>;</span><br><span class="line">			index=<span class="number">1</span>;</span><br><span class="line">			<span class="keyword">break</span>;</span><br><span class="line">		<span class="keyword">case</span> <span class="string">&#x27;S&#x27;</span>:</span><br><span class="line">			o[<span class="number">0</span>]=<span class="number">0</span>;</span><br><span class="line">			o[<span class="number">1</span>]=<span class="number">-1</span>;</span><br><span class="line">			index=<span class="number">2</span>;</span><br><span class="line">			<span class="keyword">break</span>;</span><br><span class="line">		<span class="keyword">case</span> <span class="string">&#x27;W&#x27;</span>:</span><br><span class="line">			o[<span class="number">0</span>]=<span class="number">-1</span>;</span><br><span class="line">			o[<span class="number">1</span>]=<span class="number">0</span>;</span><br><span class="line">			index=<span class="number">3</span>;</span><br><span class="line">			<span class="keyword">break</span>;</span><br><span class="line">	&#125;	</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="keyword">char</span> orient[<span class="number">4</span>]=&#123;<span class="string">&#x27;N&#x27;</span>, <span class="string">&#x27;E&#x27;</span>, <span class="string">&#x27;S&#x27;</span>, <span class="string">&#x27;W&#x27;</span>&#125;;</span><br><span class="line">	<span class="keyword">int</span> xm, ym;</span><br><span class="line">	<span class="keyword">int</span> x, y;</span><br><span class="line">	<span class="keyword">char</span> oi;</span><br><span class="line">	string s;</span><br><span class="line">	<span class="keyword">int</span> o[<span class="number">2</span>]=&#123;<span class="number">0</span>,<span class="number">0</span>&#125;;</span><br><span class="line">	<span class="keyword">int</span> index, flag;</span><br><span class="line">	cin&gt;&gt;xm&gt;&gt;ym;</span><br><span class="line">	<span class="comment">//記掉落</span></span><br><span class="line">	<span class="keyword">int</span> fall[xm][ym]=&#123;<span class="number">0</span>&#125;; </span><br><span class="line">	<span class="keyword">while</span>(cin&gt;&gt;x&gt;&gt;y&gt;&gt;oi)</span><br><span class="line">	&#123;</span><br><span class="line">		index=<span class="number">0</span>;</span><br><span class="line">		flag=<span class="number">0</span>;</span><br><span class="line">		<span class="comment">//初始方向</span></span><br><span class="line">		<span class="built_in">recO</span>(oi, o, index); </span><br><span class="line">		cin&gt;&gt;s;</span><br><span class="line">		<span class="keyword">for</span>(<span class="keyword">int</span> i=<span class="number">0</span>; i&lt;s.<span class="built_in">length</span>(); i++)</span><br><span class="line">		&#123;</span><br><span class="line">			<span class="comment">//三指令 </span></span><br><span class="line">			<span class="built_in"><span class="keyword">switch</span></span>(s[i])</span><br><span class="line">			&#123;</span><br><span class="line">				<span class="keyword">case</span> <span class="string">&#x27;F&#x27;</span>:</span><br><span class="line">					<span class="comment">//移動 </span></span><br><span class="line">					x+=o[<span class="number">0</span>];</span><br><span class="line">					y+=o[<span class="number">1</span>];</span><br><span class="line">					<span class="keyword">break</span>;</span><br><span class="line">				<span class="keyword">case</span> <span class="string">&#x27;R&#x27;</span>:</span><br><span class="line">					index=(index+<span class="number">1</span>)%<span class="number">4</span>;</span><br><span class="line">					<span class="comment">//改方向 </span></span><br><span class="line">					<span class="built_in">recO</span>(orient[index], o, index);</span><br><span class="line">					<span class="keyword">break</span>;</span><br><span class="line">				<span class="keyword">case</span> <span class="string">&#x27;L&#x27;</span>:</span><br><span class="line">					<span class="keyword">if</span>(index==<span class="number">0</span>) index=<span class="number">3</span>;</span><br><span class="line">					<span class="keyword">else</span> index--;</span><br><span class="line">					<span class="comment">//改方向 </span></span><br><span class="line">					<span class="built_in">recO</span>(orient[index], o, index);</span><br><span class="line">					<span class="keyword">break</span>;</span><br><span class="line">			&#125;</span><br><span class="line">			<span class="keyword">if</span>(x&gt;xm|| x&lt;<span class="number">0</span> || y&lt;<span class="number">0</span> || y&gt;ym)</span><br><span class="line">			&#123;</span><br><span class="line">				<span class="comment">//若是上一步有座標記，恢復原值，忽略此次移動 </span></span><br><span class="line">				<span class="keyword">if</span>(fall[x-o[<span class="number">0</span>]][y-o[<span class="number">1</span>]])</span><br><span class="line">				&#123;</span><br><span class="line">					x=x-o[<span class="number">0</span>];</span><br><span class="line">					y=y-o[<span class="number">1</span>];</span><br><span class="line">					<span class="keyword">continue</span>;</span><br><span class="line">				&#125;</span><br><span class="line">				<span class="keyword">if</span>(x&gt;xm)x=xm;</span><br><span class="line">				<span class="keyword">else</span> <span class="keyword">if</span>(x&lt;<span class="number">0</span>) x=<span class="number">0</span>;</span><br><span class="line">				<span class="keyword">if</span>(y&gt;ym) y=ym;</span><br><span class="line">				<span class="keyword">else</span> <span class="keyword">if</span>(y&lt;<span class="number">0</span>) y=<span class="number">0</span>;</span><br><span class="line">				fall[x][y]=<span class="number">1</span>;</span><br><span class="line">				flag=<span class="number">1</span>;</span><br><span class="line">				<span class="keyword">break</span>;	</span><br><span class="line">			&#125; </span><br><span class="line">		&#125;</span><br><span class="line">		cout&lt;&lt;x&lt;&lt;<span class="string">&quot; &quot;</span>&lt;&lt;y&lt;&lt;<span class="string">&quot; &quot;</span>&lt;&lt;orient[index];</span><br><span class="line">		<span class="keyword">if</span>(flag) cout&lt;&lt;<span class="string">&quot; LOST&quot;</span>;</span><br><span class="line">		cout&lt;&lt;endl;</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></li>
+</ul>
+<h1 id="48-uva-11150"><a href="#48-uva-11150" class="headerlink" title="48. uva #11150"></a>48. uva #11150</h1><ul>
+<li><a target="_blank" rel="noopener" href="https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=2091">題目連結</a></li>
+<li><strong>題目大意：</strong></li>
+<li><strong>核心思路：</strong><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;iostream&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"></span><br><span class="line"><span class="comment">//最後一次，若多兩瓶可樂空瓶，可以多借一瓶空瓶，最後還回去1瓶 </span></span><br><span class="line"><span class="comment">//總共借超過一瓶都會虧!!</span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="keyword">int</span> n;</span><br><span class="line">	<span class="keyword">int</span> cnt;</span><br><span class="line">	<span class="keyword">int</span> notused=<span class="number">0</span>;</span><br><span class="line">	<span class="keyword">while</span>(cin&gt;&gt;n)</span><br><span class="line">	&#123;</span><br><span class="line">		cnt=n;</span><br><span class="line">		notused=<span class="number">0</span>;</span><br><span class="line">		<span class="comment">//算可換幾瓶可樂</span></span><br><span class="line">		<span class="keyword">while</span>(n&gt;=<span class="number">3</span>)</span><br><span class="line">		&#123;</span><br><span class="line">			<span class="comment">//新可樂</span></span><br><span class="line">			cnt+=n/<span class="number">3</span>;</span><br><span class="line">			<span class="comment">//新空杯</span></span><br><span class="line">			n=n%<span class="number">3</span>+n/<span class="number">3</span>;	</span><br><span class="line">		&#125;</span><br><span class="line">		<span class="comment">//空杯==2，借一個空瓶湊，多一瓶新可樂 </span></span><br><span class="line">		<span class="keyword">if</span>(n==<span class="number">2</span>)</span><br><span class="line">		&#123;</span><br><span class="line">			cnt++;</span><br><span class="line">		&#125;</span><br><span class="line">		cout&lt;&lt;cnt&lt;&lt;endl;</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure></li>
+</ul>
+<h1 id="49-uva-11321"><a href="#49-uva-11321" class="headerlink" title="49. uva #11321"></a>49. uva #11321</h1><ul>
+<li><a target="_blank" rel="noopener" href="https://onlinejudge.org/index.php?option=onlinejudge&page=show_problem&problem=2296">題目連結</a></li>
+<li><strong>題目大意：</strong></li>
+<li><strong>核心思路：</strong><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;algorithm&gt;</span></span></span><br><span class="line"><span class="comment">//50 </span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"></span><br><span class="line"><span class="comment">//依mod生序 </span></span><br><span class="line"><span class="comment">//同mod，奇先於偶，大奇先於小奇，小偶先於大偶 </span></span><br><span class="line"></span><br><span class="line"><span class="keyword">int</span> m;</span><br><span class="line"><span class="function"><span class="keyword">bool</span> <span class="title">cmp</span><span class="params">(<span class="keyword">int</span> x, <span class="keyword">int</span> y)</span> </span>&#123;</span><br><span class="line">	<span class="keyword">if</span>(x%m==y%m)</span><br><span class="line">	&#123;</span><br><span class="line">		<span class="keyword">if</span>(x%<span class="number">2</span>==<span class="number">0</span> &amp;&amp; y%<span class="number">2</span>==<span class="number">0</span>) <span class="keyword">return</span> x&lt;y;</span><br><span class="line">		<span class="keyword">else</span> <span class="keyword">if</span>(x%<span class="number">2</span>!=<span class="number">0</span> &amp;&amp; y%<span class="number">2</span>!=<span class="number">0</span>) <span class="keyword">return</span> x&gt;y;	<span class="comment">//這裡不要寫x%2==1 &amp;&amp; y%2==1，因為負奇數%2為-1!!!!!! </span></span><br><span class="line">		<span class="keyword">else</span> <span class="built_in"><span class="keyword">return</span></span> (y%<span class="number">2</span>==<span class="number">0</span>);	<span class="comment">//這裡也是，不要寫x%2==1!!! </span></span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">else</span></span><br><span class="line">	&#123;</span><br><span class="line">		<span class="built_in"><span class="keyword">return</span></span> ((x%m)&lt;(y%m));</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="keyword">int</span> n;</span><br><span class="line">	<span class="keyword">while</span>(cin&gt;&gt;n&gt;&gt;m)</span><br><span class="line">	&#123;</span><br><span class="line">		cout&lt;&lt;n&lt;&lt;<span class="string">&quot; &quot;</span>&lt;&lt;m&lt;&lt;endl;</span><br><span class="line">		<span class="keyword">if</span>(n==<span class="number">0</span> &amp;&amp; m==<span class="number">0</span>) <span class="keyword">break</span>;</span><br><span class="line">		<span class="keyword">int</span> a[n];</span><br><span class="line">		<span class="keyword">for</span>(<span class="keyword">int</span> i=<span class="number">0</span>; i&lt;n; i++)</span><br><span class="line">		&#123;</span><br><span class="line">			cin&gt;&gt;a[i];</span><br><span class="line">		&#125;</span><br><span class="line">		<span class="built_in">sort</span>(a,a+n, cmp);</span><br><span class="line">		<span class="keyword">for</span>(<span class="keyword">int</span> i=<span class="number">0</span>; i&lt;n; i++)</span><br><span class="line">			cout&lt;&lt;a[i]&lt;&lt;endl; </span><br><span class="line">	&#125;</span><br><span class="line">&#125; </span><br></pre></td></tr></table></figure></li>
+</ul>
+
+    </div>
+
+    
+    
+    
+
+      <footer class="post-footer">
+          <div class="post-tags">
+              <a href="/tags/c/" rel="tag"># c++</a>
+          </div>
+
+        
+
+
+        
+    <div class="post-nav">
+      <div class="post-nav-item">
+    <a href="/2021/07/02/%E5%88%B7%E9%A1%8C%E8%A8%98%E9%8C%84-4/" rel="prev" title="刷題記錄 4： cpe必考1星題庫31~40題">
+      <i class="fa fa-chevron-left"></i> 刷題記錄 4： cpe必考1星題庫31~40題
+    </a></div>
+      <div class="post-nav-item"></div>
+    </div>
+      </footer>
+    
+  </article>
+  
+  
+  
+
+
+
+          </div>
+          
+
+<script>
+  window.addEventListener('tabs:register', () => {
+    let { activeClass } = CONFIG.comments;
+    if (CONFIG.comments.storage) {
+      activeClass = localStorage.getItem('comments_active') || activeClass;
+    }
+    if (activeClass) {
+      let activeTab = document.querySelector(`a[href="#comment-${activeClass}"]`);
+      if (activeTab) {
+        activeTab.click();
+      }
+    }
+  });
+  if (CONFIG.comments.storage) {
+    window.addEventListener('tabs:click', event => {
+      if (!event.target.matches('.tabs-comment .tab-content .tab-pane')) return;
+      let commentClass = event.target.classList[1];
+      localStorage.setItem('comments_active', commentClass);
+    });
+  }
+</script>
+
+        </div>
+          
+  
+  <div class="toggle sidebar-toggle">
+    <span class="toggle-line toggle-line-first"></span>
+    <span class="toggle-line toggle-line-middle"></span>
+    <span class="toggle-line toggle-line-last"></span>
+  </div>
+
+  <aside class="sidebar">
+    <div class="sidebar-inner">
+
+      <ul class="sidebar-nav motion-element">
+        <li class="sidebar-nav-toc">
+          文章目錄
+        </li>
+        <li class="sidebar-nav-overview">
+          本站概要
+        </li>
+      </ul>
+
+      <!--noindex-->
+      <div class="post-toc-wrap sidebar-panel">
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#41-uva-10062"><span class="nav-number">1.</span> <span class="nav-text">41. uva #10062</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#42-uva-299"><span class="nav-number">2.</span> <span class="nav-text">42. uva #299</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#43-uva-10226"><span class="nav-number">3.</span> <span class="nav-text">43. uva #10226</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#44-uva-10189"><span class="nav-number">4.</span> <span class="nav-text">44. uva #10189</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#45-uva-10409"><span class="nav-number">5.</span> <span class="nav-text">45. uva #10409</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#46-uva-10415"><span class="nav-number">6.</span> <span class="nav-text">46. uva #10415</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#47-uva-118"><span class="nav-number">7.</span> <span class="nav-text">47. uva #118</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#48-uva-11150"><span class="nav-number">8.</span> <span class="nav-text">48. uva #11150</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#49-uva-11321"><span class="nav-number">9.</span> <span class="nav-text">49. uva #11321</span></a></li></ol></div>
+      </div>
+      <!--/noindex-->
+
+      <div class="site-overview-wrap sidebar-panel">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <img class="site-author-image" itemprop="image" alt="sunny2021137"
+      src="/images/beibeiBig.png">
+  <p class="site-author-name" itemprop="name">sunny2021137</p>
+  <div class="site-description" itemprop="description"></div>
+</div>
+<div class="site-state-wrap motion-element">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+          <a href="/archives/">
+        
+          <span class="site-state-item-count">6</span>
+          <span class="site-state-item-name">文章</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-categories">
+            <a href="/categories/">
+          
+        <span class="site-state-item-count">4</span>
+        <span class="site-state-item-name">分類</span></a>
+      </div>
+      <div class="site-state-item site-state-tags">
+            <a href="/tags/">
+          
+        <span class="site-state-item-count">3</span>
+        <span class="site-state-item-name">標籤</span></a>
+      </div>
+  </nav>
+</div>
+  <div class="links-of-author motion-element">
+      <span class="links-of-author-item">
+        <a href="https://github.com/yourname" title="GitHub → https:&#x2F;&#x2F;github.com&#x2F;yourname" rel="noopener" target="_blank"><i class="fab fa-github fa-fw"></i>GitHub</a>
+      </span>
+  </div>
+
+
+
+      </div>
+
+    </div>
+  </aside>
+  <div id="sidebar-dimmer"></div>
+
+
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-inner">
+        
+
+        
+
+<div class="copyright">
+  
+  &copy; 
+  <span itemprop="copyrightYear">2021</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">sunny2021137</span>
+</div>
+  <div class="powered-by">由 <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Gemini</a> 強力驅動
+  </div>
+
+        
+
+
+
+
+
+
+
+
+      </div>
+    </footer>
+  </div>
+
+  
+  <script src="/lib/anime.min.js"></script>
+  <script src="/lib/velocity/velocity.min.js"></script>
+  <script src="/lib/velocity/velocity.ui.min.js"></script>
+
+<script src="/js/utils.js"></script>
+
+<script src="/js/motion.js"></script>
+
+
+<script src="/js/schemes/pisces.js"></script>
+
+
+<script src="/js/next-boot.js"></script>
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+</body>
+</html>
